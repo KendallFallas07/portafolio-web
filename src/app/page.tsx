@@ -36,7 +36,7 @@ const HomePage = () => {
           alt="Logo"
           className="relative z-10 w-24 h-24 rounded-full mb-4 md:w-32 md:h-32"
         />
-        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 relative z-10">Kendall Fallas Mena</h1>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 relative z-10">Kendall Fallas</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
 
           Desarrollador FullStack | Enfoque en desarrollo web, IA y optimización.
