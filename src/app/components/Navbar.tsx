@@ -42,7 +42,7 @@ const Navbar = () => {
                         Proyectos
                     </Link>
                     <Link href="#experience" className="mx-2 hover:text-gray-300">
-                        Experencia
+                        Experiencia
                     </Link>
                     <a href="/CV-Kendall-Fallas-Mena.pdf" download className="mx-2 text-blue-500 hover:text-gray-300">
                         Descargar CV
