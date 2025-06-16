@@ -39,7 +39,7 @@ const HomePage = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 relative z-10">Kendall Fallas</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
 
-          Desarrollador FullStack | Enfoque en desarrollo web, IA y optimización.
+          Full Stack Developer | Focused on web development, basic knowledge of AI, and optimization.
         </p>
         {/* Sección de Contacto */}
         <div className="flex items-center space-x-4 mt-12 relative z-10 bg-zinc-200/10 p-2 rounded-lg border border-[#e7e7e775]">
@@ -64,9 +64,9 @@ const HomePage = () => {
       {/* Sección de Tecnologías */}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='tools'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Mis tecnologías</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">My technologies</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
-          Estas son las tecnologías que utilizo a diario para construir soluciones eficientes y escalables, además de aquellas con las que tengo experiencia y conocimiento.
+          These are the technologies I use on a daily basis to develop efficient and scalable solutions, along with others I have experience and familiarity with.
           </p>
         </div>
         <LogoCarousel />
@@ -76,14 +76,14 @@ const HomePage = () => {
       {/* Sección de Proyectos Principales*/}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Proyectos principales</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Main Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
               <img src="/EPP.png" alt="Edu Plan Pro Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Edu Plan Pro</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              Una página web diseñada con el propósito de digitalizar cientos de registros, con el fin de mejorar la atención brindada a los estudiantes de la Universidad Nacional de Costa Rica al acceder a información sobre los cursos impartidos en la institución.              </p>
+              A website designed to digitize hundreds of records with the goal of improving the service provided to students at the National University of Costa Rica by facilitating access to information about the courses offered by the institution.              </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/react.svg" alt="React Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/js.svg" alt="JS Image" className="w-10 h-10 mr-2" />
@@ -101,7 +101,7 @@ const HomePage = () => {
             
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
               <img src="/cs.jpg" alt="Smart Query Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
-              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Muy pronto</h3>
+              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Coming soon...</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
                 * <br/> * <br/> * <br/> * <br/> * 
                 
@@ -123,19 +123,19 @@ const HomePage = () => {
       {/* Sección de Otros Proyectos*/}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Otros proyectos...</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Other Projects...</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
               <img src="/CPU.jpg" alt="Simulacion CPU" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
-              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Simulación de planificación CPU</h3>
+              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">CPU Scheduling Simulation</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              Una aplicación diseñada para el sistema operativo Linux que simula el proceso de planificación de la CPU, gestionando diversas tareas asociadas a la administración de procesos y su asignación en diferentes estados.              </p>
+              An application designed for the Linux operating system that simulates the CPU scheduling process, managing various tasks related to process management and their allocation across different states.              </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/c.svg" alt="Postgres Image" className="w-10 h-10 mr-2" />
               </div>
               <div className="flex space-x-4">
-                <a href="https://github.com/KendallFallas07/Planificacion-CPU-SO" className="bg-black text-white px-4 py-2 rounded">Ver código</a>
+                <a href="https://github.com/KendallFallas07/Planificacion-CPU-SO" className="bg-black text-white px-4 py-2 rounded">View code</a>
               </div>
             </div>
             
@@ -143,7 +143,7 @@ const HomePage = () => {
               <img src="/SAF.png" alt="Project 2 Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">SAF</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              El sistema autónomo de facturación es una solución innovadora impulsada por inteligencia artificial que permite identificar productos en un centro comercial de manera automática, facilitando un proceso de pago más ágil y preciso. 
+              The autonomous billing system is an innovative solution powered by artificial intelligence that enables automatic product identification in a shopping center, facilitating a faster and more accurate payment process.
               </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/php.svg" alt="Php" className="w-16 h-10 mr-2" />
@@ -154,7 +154,7 @@ const HomePage = () => {
                 
               </div>
               <div className="flex space-x-4">
-                <a href="https://github.com/KendallFallas07/SAF" className="bg-black text-white px-4 py-2 rounded">Ver código</a>
+                <a href="https://github.com/KendallFallas07/SAF" className="bg-black text-white px-4 py-2 rounded">View code</a>
               </div>
             </div>
           </div>
@@ -164,9 +164,9 @@ const HomePage = () => {
       {/* Sección de Experiencia */}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='experience'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Experiencia laboral</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Work experience</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
-            Descubre los proyectos y trabajos que han marcado mi camino profesional durante mi carrera.
+          Discover the projects and work that have shaped my professional journey throughout my career.
           </p>
           <Experience />
         </div>

@@ -6,11 +6,11 @@ const technologies = [
   'ts.svg',
   'js.svg',
   'c.svg',
-  'springBoot.svg',
+  'java.svg',
   'python.svg',
   'postgres.svg',
   'mysql-original-wordmark.svg',
-  'php.svg'
+  'php.svg',
 ];
 
 const LogoCarousel = () => {
