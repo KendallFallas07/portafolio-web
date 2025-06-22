@@ -66,7 +66,7 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">My technologies</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
-          These are the technologies I use on a daily basis to develop efficient and scalable solutions, along with others I have experience and familiarity with.
+            These are the technologies I use on a daily basis to develop efficient and scalable solutions, along with others I have experience and familiarity with.
           </p>
         </div>
         <LogoCarousel />
@@ -78,40 +78,46 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Main Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
+
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/EPP.png" alt="Edu Plan Pro Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <img src="/EDUPLANPRO.jpg" alt="Edu Plan Pro Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Edu Plan Pro</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              A website designed to digitize hundreds of records with the goal of improving the service provided to students at the National University of Costa Rica by facilitating access to information about the courses offered by the institution.              </p>
+                A website designed to digitize hundreds of records with the goal of improving the service provided to students at the National University of Costa Rica by facilitating access to information about the courses offered by the institution.              </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/react.svg" alt="React Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/js.svg" alt="JS Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/tailwind.svg" alt="Tailwind Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/nodejs.svg" alt="NodeJs Image" className="w-28 h-10 mr-2" />
                 <Image width={10} height={10} src="/postgres.svg" alt="Postgrees Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/docker.svg" alt="Docker Image" className="w-10 h-10 mr-2" />
 
               </div>
               <div className="flex space-x-4">
-                <a  href="javascript:void(0);"
-                  className="bg-black text-white px-4 py-2 rounded cursor-not-allowed">En desarrollo</a>
+                <a href="https://github.com/brayrpgs/EduPlanPro-Frontend"
+                  className="bg-black text-white px-4 py-2 rounded">View code</a>
               </div>
             </div>
 
-            
+
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/cs.jpg" alt="Smart Query Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
-              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Coming soon...</h3>
+              <img src="/wsm.png" alt="Smart Query Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Shopping Engine Search</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-                * <br/> * <br/> * <br/> * <br/> * 
-                
+
+              A mobile application that uses web scraping to collect product data from Amazon, Alibaba, and eBay. It displays items in cards, allowing users to compare and choose the best option from each store. The app includes login functionality with OAuth 2.
+
               </p>
               <div className="flex items-center mb-4">
-                <Image width={10} height={10} src="/sl.svg" alt="Sin logo Image" className="w-10 h-10 mr-2" />
-                
+                <Image width={10} height={10} src="/ts.svg" alt="JS Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/nodejs.svg" alt="NodeJs Image" className="w-28 h-10 mr-2" />
+                <Image width={10} height={10} src="/kotlin.svg" alt="Kotlin Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/postgres.svg" alt="Postgrees Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/docker.svg" alt="Docker Image" className="w-10 h-10 mr-2" />
+
               </div>
               <div className="flex space-x-4">
-                <a href="javascript:void(0);" className="bg-black text-white px-4 py-2 cursor-not-allowed rounded">404</a>
+                <a href="https://github.com/brayrpgs/ARShopping" className="bg-black text-white px-4 py-2 cursor-not-allowed rounded">View code</a>
               </div>
 
             </div>
@@ -125,12 +131,12 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Other Projects...</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
+
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
               <img src="/CPU.jpg" alt="Simulacion CPU" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">CPU Scheduling Simulation</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              An application designed for the Linux operating system that simulates the CPU scheduling process, managing various tasks related to process management and their allocation across different states.              </p>
+                An application designed for the Linux operating system that simulates the CPU scheduling process, managing various tasks related to process management and their allocation across different states.              </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/c.svg" alt="Postgres Image" className="w-10 h-10 mr-2" />
               </div>
@@ -138,12 +144,12 @@ const HomePage = () => {
                 <a href="https://github.com/KendallFallas07/Planificacion-CPU-SO" className="bg-black text-white px-4 py-2 rounded">View code</a>
               </div>
             </div>
-            
+
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
               <img src="/SAF.png" alt="Project 2 Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">SAF</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              The autonomous billing system is an innovative solution powered by artificial intelligence that enables automatic product identification in a shopping center, facilitating a faster and more accurate payment process.
+                The autonomous billing system is an innovative solution powered by artificial intelligence that enables automatic product identification in a shopping center, facilitating a faster and more accurate payment process.
               </p>
               <div className="flex items-center mb-4">
                 <Image width={10} height={10} src="/php.svg" alt="Php" className="w-16 h-10 mr-2" />
@@ -151,7 +157,7 @@ const HomePage = () => {
                 <Image width={10} height={10} src="/html.svg" alt="Flask Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/python.svg" alt="Flask Image" className="w-10 h-10 mr-2" />
                 <Image width={10} height={10} src="/mysql-original-wordmark.svg" alt="Grafana Image" className="w-10 h-10 mr-2" />
-                
+
               </div>
               <div className="flex space-x-4">
                 <a href="https://github.com/KendallFallas07/SAF" className="bg-black text-white px-4 py-2 rounded">View code</a>
@@ -166,7 +172,7 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Work experience</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
-          Discover the projects and work that have shaped my professional journey throughout my career.
+            Discover the projects and work that have shaped my professional journey throughout my career.
           </p>
           <Experience />
         </div>
