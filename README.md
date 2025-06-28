@@ -11,7 +11,7 @@ Welcome to my personal portfolio showcasing some of the projects I've worked on,
 - Full Stack Development  
 - React, Node.js, Tailwind CSS, JavaScript  
 - Kotlin, PostgreSQL, Docker  
-- PHP, Flask, Prometheus, Grafana  
+- PHP, Java, Postman, Python  
 
 ---
 
